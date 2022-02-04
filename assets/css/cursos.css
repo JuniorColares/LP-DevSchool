@@ -6,7 +6,7 @@
 
 .cursos__titulo {
     font-size: 30px;
-    text-shadow: rgb(0, 0, 0);
+    text-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
 .cursos__texto {
