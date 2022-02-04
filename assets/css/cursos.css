@@ -1,0 +1,76 @@
+.cursos {
+    background-color: #f5eeee;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cursos__titulo {
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0);
+}
+
+.cursos__texto {
+    font-size: 23px;
+    padding: 1rem 28rem;
+    line-height: 2.2rem;
+}
+
+.linguagens {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.linguagem {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #bbbbbb;
+}
+
+.linguagem__imagem {
+    width: 150px;
+    margin: auto;
+    padding: 0.75rem calc(33% - 1.5rem);
+    border-radius: 10px;
+}
+
+.linguagem__imagem--html {
+    background-color: rgb(237, 119, 29);
+}
+
+.linguagem__imagem--css {
+    background-color: rgb(20, 149, 209);
+}
+
+.linguagem__imagem--javascript {
+    background-color: yellow;
+}
+
+.linguagem__titulo--html {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(243, 158, 0);
+    text-shadow: 0 0 1.5px black;
+}
+
+.linguagem__titulo--css {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(0, 84, 194);
+    text-shadow: 0 0 1.5px black;
+}
+
+.linguagem__titulo--javascript {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0 1.5px black;
+}
+
+.linguagem__descricao {
+    text-align: justify;
+    padding: 0 1rem 1rem 1rem;
+}

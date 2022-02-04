@@ -1,0 +1,29 @@
+.a-devschool {
+    height: 100%;
+    background-color: rgb(34, 213, 189);
+    text-align: center;
+}
+
+.a-devschool__texto {
+    padding: 3rem 26rem;
+    line-height: 2rem;
+}
+
+.a-devschool__botao {
+    margin: 0 0 3rem 0;
+    padding: 0.3rem 1.5rem;
+    color: seashell;
+    background-color: rgb(1, 167, 145);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(1, 157, 141);
+}
+
+.a-devschool__link {
+    text-decoration: none;
+    color: snow;
+}
+
+.a-devschool__botao:hover {
+    background-color: rgb(0, 136, 118);
+}
