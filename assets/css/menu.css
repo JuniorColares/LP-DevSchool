@@ -28,3 +28,7 @@
     text-decoration-color: cadetblue;
     text-decoration-thickness: 2px;
 }
+
+html {
+    scroll-behavior: smooth;
+}

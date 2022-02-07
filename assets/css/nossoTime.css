@@ -1,0 +1,39 @@
+.nosso-time {
+    background-color: #f5eeee;
+    padding: 2rem;
+    text-align: center;
+}
+
+.nosso-time__titulo {
+    font-size: 30px;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.nosso-time__texto {
+    font-size: 23px;
+    padding: 1rem;
+    line-height: 2.2rem;
+}
+
+.professores {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 0 2rem;
+}
+
+.professor {
+    display: flex;
+    flex-direction: column;
+}
+
+.professor__imagem {
+    border-radius: 100%;
+    height: 111px;
+    width: 111px;
+}
+
+.professor__curso {
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}

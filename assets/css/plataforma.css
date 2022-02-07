@@ -1,0 +1,22 @@
+.plataforma {
+    text-align: center;
+    padding: 2rem;
+    background-color: #cccccc;
+}
+
+.plataforma__titulo {
+    font-size: 30px;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.plataforma__texto {
+    font-size: 23px;
+    line-height: 2.2rem;
+    padding: 1rem;
+}
+
+.plataforma__video {
+    width: 80px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

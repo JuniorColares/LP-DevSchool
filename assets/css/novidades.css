@@ -1,0 +1,31 @@
+.novidades {
+ text-align: center;
+ background-color: #f5eeee;
+ padding: 2rem 5rem;
+}
+
+.novidades__titulo {
+    font-size: 30px;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.novidades__texto {
+    font-size: 23px;
+    padding: 1rem;
+    line-height: 2.2rem;
+}
+
+.novidades__form {
+    width: 400px;
+}
+
+.novidades__enviar {
+    margin: 0.5rem 0 1rem 0;
+    width: 410px;
+    color: white;
+    background: orangered;
+    padding: 0.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}

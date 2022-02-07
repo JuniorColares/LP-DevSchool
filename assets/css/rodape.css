@@ -1,0 +1,25 @@
+.rodape {
+    padding: 2rem;
+    background: rgb(49, 49, 49);
+    text-align: center;
+
+}
+
+.redes {
+    text-align: center;
+}
+
+.rede {
+    padding: 0 2rem;
+    width: 30px;
+}
+
+.rodape__texto {
+    color: white;
+    padding-top: 1rem;
+}
+
+.rodape__link {
+    text-decoration: underline;
+    color: white;
+}
