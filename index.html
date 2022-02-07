@@ -12,27 +12,33 @@
     <link rel="stylesheet" href="./assets/css/a-deschool.css">
     <link rel="stylesheet" href="./assets/css/cursos.css">
     <link rel="stylesheet" href="./assets/css/formacoes.css">
+    <link rel="stylesheet" href="./assets/css/novidades.css">
+    <link rel="stylesheet" href="./assets/css/plataforma.css">
+    <link rel="stylesheet" href="./assets/css/nossoTime.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header>
+        <nav class="cabecalho">
         <img alt="Logo DevSchool" src="./assets/img/logo-dev-school.png">
         <ul class="menu__lista">
-            <li class="menu__item"><a href="" class="menu__link">Início</a></li>
-            <li class="menu__item"><a href="" class="menu__link">A DevSchool</a></li>
-            <li class="menu__item"><a href="" class="menu__link">Cursos</a></li>
-            <li class="menu__item"><a href="" class="menu__link">Formações</a></li>
-            <li class="menu__item"><a href="" class="menu__link">Contato</a></li>
-            <li class="menu__item"><a href="" class="menu__link">Campus</a></li>
+            <li class="menu__item"><a href="#inicio" class="menu__link">Início</a></li>
+            <li class="menu__item"><a href="#sobre" class="menu__link">A DevSchool</a></li>
+            <li class="menu__item"><a href="#cursos" class="menu__link">Cursos</a></li>
+            <li class="menu__item"><a href="#formacao" class="menu__link">Formações</a></li>
+            <li class="menu__item"><a href="#contato" class="menu__link">Contato</a></li>
+            <li class="menu__item"><a href="#campus" class="menu__link">Campus</a></li>
         </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="a-devschool">
+        <section class="a-devschool" id="sobre">
             <h2 class="a-devschool__texto">Aprenda a <b>PROGRAMAR</b> com a melhor equipe de <b>DESENVOLVEDORES</b> <br>do mercado!</h2>
             <button class="a-devschool__botao"><a href="" class="a-devschool__link">Metodologia de Ensino</a></button>
         </section>
 
-        <section class="cursos">
+        <section class="cursos" id="cursos">
             <h3 class="cursos__titulo">Nossos Cursos</h3>
             <p class="cursos__texto">Torne-se um profissional qualificado <br>e destaque-se com os nossos <b>CURSOS!</b></p>
             <section class="linguagens">
@@ -60,7 +66,7 @@
             </section>
         </section>
 
-        <section class="disciplinas">
+        <section class="disciplinas" id="formacao">
             <h3 class="disciplinas__titulo">Nossas Formações</h3>
             <p class="disciplinas__texto">Torne-se um profissional requisitado<br> pelos recrutadores das grandes empresas<br> com nossas <b>FORMAÇÕES!</b></p>
             <section class="formacoes">
@@ -88,7 +94,74 @@
 
             </section>
         </section>
+
+        <section class="novidades" id="contato">
+            <h3 class="novidades__titulo">Novidades</h3>
+            <p class="novidades__texto">Preencha nosso formulário abaixo e receba <br>nossas novidades tudo em primeira mão!</p>
+            <input type="text" placeholder="Seu melhor e-mail" class="novidades__form"><br>
+            <input type="submit" value="RECEBER NOVIDADES" class="novidades__enviar">
+        </section>
+
+        <section class="plataforma" id="campus">
+            <h3 class="plataforma__titulo">Plataforma de Ensino</h3>
+            <p class="plataforma__texto">Clique no PLAY abaixo e conheça <br>a plataforma que vai acelerar <br>seus estudos!</p>
+            <a href="" target="_blank"><img src="./assets/img/btn-play.png" alt="Vídeo" class="plataforma__video"></a>
+        </section>
+
+        <section class="nosso-time">
+            <h3 class=" nosso-time__titulo">Nosso Time</h3>
+            <p class="nosso-time__texto">Os melhores <b>PROFESSORES</b><br> para os melhores <b>ALUNOS!</b></p>
+            <div class="professores">
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa1.png" alt="" class="professor__imagem">
+                    <span class="professor__curso">front-end</span>
+                    <span class="professor__funcao">Developer</span>
+                </div>
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa2.png" alt="" class="professor__imagem">                    
+                    <span class="professor__curso">ui | ux</span>
+                    <span class="professor__funcao">Designer</span>
+                </div>
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa3.png" alt="" class="professor__imagem">
+                    <span class="professor__curso">back-end</span>
+                    <span class="professor__funcao">Especialist</span>
+                </div>
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa4.png" alt="" class="professor__imagem">
+                    <span class="professor__curso">html | css</span>
+                    <span class="professor__funcao">Especialist</span>
+                </div>
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa5.png" alt="" class="professor__imagem">
+                    <span class="professor__curso">javascript</span>
+                    <span class="professor__funcao">Especialist</span>
+                </div>
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa6.png" alt="" class="professor__imagem">
+                    <span class="professor__curso">react</span>
+                    <span class="professor__funcao">Developer</span>
+                </div>
+                <div class="professor">
+                    <img src="./assets/img/nosso-time/pessoa7.png" alt="" class="professor__imagem">
+                    <span class="professor__curso">full-stack</span>
+                    <span class="professor__funcao">Developer</span>
+                </div>
+            </div>
+        </section>
     </main>
     
+    <footer class="rodape">
+        <section class="redes">
+            <a href="" target="_blank"><img src="./assets/img/icone-facebook.png" alt="Facebook" class="rede"></a>
+            <a href="" target="_blank"><img src="./assets/img/icone-whatsapp.png" alt="Whatsapp" class="rede"></a>
+            <a href="" target="_blank"><img src="./assets/img/icone-instagram.png" alt="Instagram" class="rede"></a>
+        </section>
+
+        <section>
+            <p class="rodape__texto">&copy; 2022 - DevSchool</p>
+            <p class="rodape__texto"><a href="" target="_blank" class="rodape__link">Política de Privacidade</a>    |    <a href="" target="_blank" class="rodape__link">Termos de Uso</a></p>
+        </section>
+    </footer>
 </body>
 </html>
