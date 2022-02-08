@@ -1,88 +1,87 @@
 .cursos {
-    background-color: #f5eeee;
-    padding: 2rem;
-    text-align: center;
+  background-color: #f5eeee;
+  padding: 2rem;
+  text-align: center;
 }
 
 .cursos__titulo {
-    font-size: 30px;
-    text-shadow: 0 0 1px rgb(0, 0, 0);
+  font-size: 30px;
+  text-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
 .cursos__texto {
-    line-height: 2.2rem;
-    padding: 1rem;
+  line-height: 2.2rem;
+  padding: 1rem;
 }
 
 .linguagens {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 0 0 5rem;
 }
 
 .linguagem {
-    border-radius: 10px;
-    box-shadow: 0 0 1rem #bbbbbb;
-    display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    width: 25%;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem #bbbbbb;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+  width: 25%;
 }
 
-
 .linguagem__imagem {
-    border-radius: 10px;
-    margin: auto;
-    padding: 0.75rem calc(33% - 1.5rem);
-    width: 150px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 0.75rem calc(33% - 1.5rem);
+  width: 150px;
 }
 
 .linguagem__imagem--html {
-    background-color: rgb(237, 119, 29);
+  background-color: rgb(237, 119, 29);
 }
 
 .linguagem__imagem--css {
-    background-color: rgb(20, 149, 209);
+  background-color: rgb(20, 149, 209);
 }
 
 .linguagem__imagem--javascript {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .linguagem__titulo--html {
-    color: rgb(243, 158, 0);
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-shadow: 0 0 1.5px black;
+  color: rgb(243, 158, 0);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-shadow: 0 0 1.5px black;
 }
 
 .linguagem__titulo--css {
-    color: rgb(0, 84, 194);
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-shadow: 0 0 1.5px black;
+  color: rgb(0, 84, 194);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-shadow: 0 0 1.5px black;
 }
 
 .linguagem__titulo--javascript {
-    color: rgb(255, 166, 0);
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-shadow: 0 0 1.5px black;
+  color: rgb(255, 166, 0);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-shadow: 0 0 1.5px black;
 }
 
 .linguagem__descricao {
-    text-align: justify;
-    padding: 0 1rem 1rem 1rem;
+  text-align: justify;
+  padding: 0 1rem 1rem 1rem;
 }
 
 @media screen and (min-width: 0) {
-    .cursos__texto {
-        font-size: 18px;
-    }
+  .cursos__texto {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .cursos__texto {
-        font-size: 23px;
-    }
+  .cursos__texto {
+    font-size: 23px;
+  }
 }

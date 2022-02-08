@@ -1,39 +1,72 @@
 .nosso-time {
-    background-color: #f5eeee;
-    padding: 2rem;
-    text-align: center;
+  background-color: #f5eeee;
+  padding: 2rem;
+  text-align: center;
 }
 
 .nosso-time__titulo {
-    font-size: 30px;
-    text-shadow: 0 0 1px rgb(0, 0, 0);
+  font-size: 30px;
+  text-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
 .nosso-time__texto {
-    font-size: 23px;
-    line-height: 2.2rem;
-    padding: 1rem;
+  font-size: 23px;
+  line-height: 2.2rem;
+  padding: 1rem;
 }
 
 .professores {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 2rem;
-    padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2rem;
+  padding: 2rem;
 }
 
 .professor {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .professor__imagem {
-    border-radius: 100%;
-    height: 111px;
-    width: 111px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  height: 111px;
+  width: 111px;
+}
+
+.prof__img--front {
+  background-image: url('../img/nosso-time/pessoa1.png');
+}
+
+.prof__img--uiux {
+  background-image: url('../img/nosso-time/pessoa2.png');
+}
+
+.prof__img--back {
+  background-image: url('../img/nosso-time/pessoa3.png');
+}
+
+.prof__img--htmlcss {
+  background-image: url('../img/nosso-time/pessoa4.png');
+}
+
+.prof__img--js {
+  background-image: url('../img/nosso-time/pessoa5.png');
+}
+
+.prof__img--react {
+  background-image: url('../img/nosso-time/pessoa6.png');
+}
+
+.prof__img--full {
+  background-image: url('../img/nosso-time/pessoa7.png');
 }
 
 .professor__curso {
-    margin-top: 1.5rem;
-    text-transform: uppercase;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
 }
