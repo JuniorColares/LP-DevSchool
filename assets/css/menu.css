@@ -1,7 +1,5 @@
 .cabecalho {
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem;
     align-items: center;
     background-color: #f5eeee;
     margin-bottom: 0;
@@ -31,4 +29,30 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        justify-content: center;
+        padding: 0 1rem;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 2rem 5rem;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }
 }
