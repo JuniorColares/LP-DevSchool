@@ -1,7 +1,7 @@
 .disciplinas {
-    text-align: center;
-    padding: 2rem;
     background-color: #cccccc;
+    padding: 2rem;
+    text-align: center;
 }
 
 .disciplinas__titulo {
@@ -21,12 +21,12 @@
 }
 
 .formacao {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-right: 5rem;
     border-radius: 10px;
     box-shadow: 0 0 1rem black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    width: 25%;
 }
 
 .formacao__conteudo {
@@ -39,10 +39,10 @@
 }
 
 .formacao__imagem--front {
-    width: 150px;
-    margin: auto;
     background-color: #dee88a;
+    margin: auto;
     padding: 0.75rem calc(33% - 1.5rem);
+    width: 150px;
 }
 
 .formacao__imagem--back {
@@ -55,23 +55,23 @@
 }
 
 .formacao__titulo--front {
-    padding: 1rem;
-    font-size: 1.5rem;
     color: #9d8a02;
+    font-size: 1.5rem;
+    padding: 1rem;
     text-shadow: 0 0 1.5px black;
 }
 
 .formacao__titulo--back {
-    padding: 1rem;
-    font-size: 1.5rem;
     color: #006120;
+    font-size: 1.5rem;
+    padding: 1rem;
     text-shadow: 0 0 1.5px black;
 }
 
 .formacao__titulo--full {
-    padding: 1rem;
-    font-size: 1.5rem;
     color: rgb(0, 202, 202);
+    font-size: 1.5rem;
+    padding: 1rem;
     text-shadow: 0 0 1.5px black;
 }
 

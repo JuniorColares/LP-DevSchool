@@ -1,6 +1,6 @@
 .rodape {
-    padding: 2rem;
     background: rgb(49, 49, 49);
+    padding: 2rem;
     text-align: center;
 
 }
@@ -20,6 +20,6 @@
 }
 
 .rodape__link {
-    text-decoration: underline;
     color: white;
+    text-decoration: underline;
 }
